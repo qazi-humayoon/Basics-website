@@ -1,0 +1,88 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Ubuntu&display=swap');
+*{
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    font-family: ubuntu;
+   
+}
+
+.nav a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.icon{
+    display: block;
+    height: 25px;
+    width: 25px;
+    margin-left: 1rem;
+
+}
+
+.nav1{
+    display: flex;
+    justify-content:end;
+    gap: 1rem;
+    align-items: center;
+    
+}
+
+.nav1 a{
+    color: black;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.container2{
+    display: flex;
+    align-items: center;
+
+}
+
+.container{
+    display: flex;
+   justify-content: space-between;
+   padding: 20px;
+}
+
+  .pill-button a {
+    display: inline-block;
+    padding: 10px 15px;
+    border: 1px solid #999;
+    border-radius: 50px; /* To create a pill shape, use a value that is half of the button's height */
+    
+  }
+
+.brand img {
+    width: 33px; /* Adjust the width as needed */
+    height: 33px; /* Adjust the height proportionally */
+    border-radius: 5px;
+}
+
+p{
+    padding: 30px;
+    font-weight: 550;
+}
+
+h1{
+    font-size: 35px;
+    padding: 30px;
+
+}
+.end{
+    display: flex;
+    justify-content: space-around;
+}
+
+.end img{
+    height: 450px;
+    width: 350px;
+}
